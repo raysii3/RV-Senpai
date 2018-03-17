@@ -91,5 +91,7 @@ grouping,
 contextual,
 element.class -->
 
-
+<footer>
+<p> &copy; This page is design by <a href="">NAME</a></p>
+</footer>
 </body>
