@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang='en'>
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="description" content="RV Senpai Project/Assignment" />
+    <meta name="keywords" content="RV, Senpai, Class A, Class B, Class C, Tertiary" />
+    <meta name="author" content="Ericson Tan Peng Hong" />
+    <title>RV Secpai</title>
+</head>
+
+<body>
+
+<header>
+
+<h1>Carry Mi Senpai</h1>
+
+</header>
+
+<!--Put Your Content here BOI -->
+
+
+<!-- This content is from "https://www.apollorv.com/" -->
+<!-- Content is purely copy and paste, so it required changes to be made-->
+<p>With one of the largest camper hire rental fleets in USA, it’s easy to find an Apollo to suit your needs! 
+Search for your Apollo camper by using our vehicle finder.
+Select the Features you require</p>
+<p>Searching for a great deal? Look no further! From amazing one-way travel deals, to packages sending you off to the hottest events in the country, or just great savings for people who love to plan ahead; here are just a few of the amazing offers currently available to book.</p>
+<p>Start your adventure</p>
+
+<!-- This content is from "http://www.maui-rentals.com/nz/en" -->
+<!-- Content is purely copy and paste, so it required changes to be made-->
+<p>Explore our customer's photos & adventures</p>
+<h2>Reasons to choose Maui</h2>
+<p>Maui is an experienced and trusted campervan hire and car rental brand in New Zealand and we have delivered great self-drive holidays for more than 25 years. We are focused on our continual quest for design enhancement and innovation to ensure our travellers, just like you, experience the very best in campervan holidays with our stylish interiors and spacious design right down to our warm personalised service.</p>
+
+<!-- This content is from "https://www.campertravelusa.com/" -->
+<!-- Content is purely copy and paste, so it required changes to be made-->
+<h2>Why Camper Travel?</h2>
+<p>Enhanced Consumer Protection<p>
+<p>There is power in numbers. As a CamperTravel customer, you get better protection than booking direct because you represent not just yourself but thousands of others that booked through us.</p>
+<h2>Higher Availability</h2>
+<p>If your vehicle of choice is not available from one supplier, we will find the best alternative vehicle for you from several others.</p>
+<h2>Better Choices</h2>
+<p>Find and compare hundreds of unique vehicles and deals from Top Brands.</p>
+<h2>Dedicated Service</h2>
+<p>We have no inventory to manage and maintain. Our only business is YOU and finding the perfect vehicle for your holiday.</p>
+
+<!-- This content is from "https://www.wilderness.co.nz/" -->
+<!-- Content is purely copy and paste, so it required changes to be made-->
+<h2>Welcome to Wilderness Motorhomes</h2>
+<p>A motorhome tour of New Zealand is the holiday of a lifetime. Exploring New Zealand's lush green forests, cool crisp lakes and fjords and unspoilt sandy beaches in the comfort of your own stylish, luxurious accommodation on wheels is an unbeatable experience.</p>
+<p>Our vision at Wilderness is to make that dream a reality for you. Since 2004, we’ve given thousands of wanderers much more than a motorhome rental - we’ve allowed them to live their New Zealand dream.</p>
+<p>We are a family company with a passion for sharing this amazing country. Our team is driven by a commitment to ensuring your New Zealand experience is truly memorable. What could be more rewarding than seeing your excitement as we set you on the road, and sharing your smiles and stories when you return? It’s not work - it’s dream making.</p>
+
+
+
+
+
+
+<!- The following are required structure in this html, ignore 1st BOI
+<article></article>
+<section><section>
+<aside></aside>
+<footer></footer> --> 
+
+<!- The following are required block-level element in this html, ignore 1st BOI
+<ol><li></li></ol>
+<ul><li></li></ul>
+<table></table>
+<img><img>
+<a href="Yo SENPAI"></a> -->
+
+<!-- In CSS must use these web typography, ignore 1st BOI 
+element,
+#id,
+.class,
+grouping,
+contextual,
+element.class -->
+
+
+</body>
