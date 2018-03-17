@@ -6,12 +6,23 @@
     <meta name="description" content="RV Senpai Project/Assignment" />
     <meta name="keywords" content="RV, Senpai, Class A, Class B, Class C, Tertiary" />
     <meta name="author" content="Ericson Tan Peng Hong" />
-    <title>RV Secpai</title>
+    <title>| Home | RV Senpai |</title>
 </head>
 
 <body>
 
 <header>
+
+<nav>
+<p>
+<a href="">RV Senpai</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Home&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>|
+<a href="">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Product&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>|
+<a href="">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Partnetship&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>|
+<a href="">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;About Us&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>|
+<a href="">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Contact Us&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
+</p>
+</nav>
 
 <h1>Carry Mi Senpai</h1>
 
