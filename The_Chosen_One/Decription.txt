@@ -1,0 +1,27 @@
+Class A
+1) Fan, Bathroom (No heater, shower only), Small Fridge, Bedroom
+2)Air-con, Kitchen, Dining Area, Heater
+3)LCD TV, Leather Cushion, Large Fridge, Internet Access, Microwave
+4)Freezer, Oven, Electric Stove, Central Heating System, Dish Washer
+5)CHS + Air-con + Fan, Bar (Complete Liquor Set), Curve Oled TV, Solar Powered, Master Bedroom, Filter System
+
+Class B
+1)Basic Kitchen (Gas Stove), Microwave, Bathroom, Bedroom
+2)Air-con, Retractable Roof, Dining Area
+3)LCD TV, Electric Furnace, Foyer, Small Fridge
+4)Large Fridge, Level 2 Storage Area, Heater, Central Heating System
+5)LED TV, Internet Access, Filter System, Leather Cushion
+
+Class C
+1)Double Decker Bed
+2)Extra Storage, Dining Area, TV
+3)Kitchen, Microwave, Bathroom
+4)Leather Cushion, Electric Stove, Internet Access
+5)Level 2 Storage Room, Oven, Air/Water Filter System, Solar Powered
+
+Trailer
+1)Bedroom, Window
+2)TV, Small Fridge, Small Kitchen
+3)Double Decker + Retractable Bed, Cushion, Carpet Floor, Air-con
+4)Dining Area, Fully Equiped Kitchen, LCD TV, Oven, Large Fridge
+5)Leather Cushion,  Master Bedroom, Curve Oled TV, Freezer, Furnace,
