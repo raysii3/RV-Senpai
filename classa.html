@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="utf-8">
+<meta name="description" content="Product Class A">
+<meta name="keywords" content="MotorHome, Class A">
+<meta name="author" content="Loo Wei Jit">
+<title>Class A | RV Senpai</title>
+<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+
+<header>
+<nav>
+<ul>
+<li class="logo"><a href=""><img src="logo3.png" alt="RV Senpai Logo"/></a></li>
+<li><a href="">Home</a></li>
+<li><a href="">Product</a></li>
+<li><a href="">Partnership</a></li>
+<li><a href="">About Us</a></li>
+<li><a href="">Contact Us</a></li>
+</ul>
+</nav>
+</header>
+
+<section>
+<div class="h1_pic">
+<h1>Carry Me Senpai !</h1>
+<figure>
+<img src="001.jpg" width="100%" height="70%"/>
+</figure>
+</div>
+
+<button class="tablink" onclick="openPage('A1', this, 'green')" id="defaultOpen">1</button>
+<button class="tablink" onclick="openPage('A2', this, 'brown')">2</buton>
+<button class="tablink" onclick="openPage('A3', this, 'orange')">3</button>
+<button class="tablink" onclick="openPage('A4', this, 'pink')">4</button>
+<button class="tablink" onclick="openPage('A5', this, 'chocolate')">5</button>
+
+<div id="A1" class="tabcontent">
+<img class="inside" src="logo3.png" alt="A1_Picture" />
+<div class="border">
+<h4>Description</h4>
+<p>Samll Fridge</p>
+<p>Fan</p>
+<p>Bathroom</p>
+<p>Bedroom</p>
+</div>
+</div>
+
+<div id="A2" class="tabcontent">
+<img class="inside" src="logo3.png" alt="A2_Picture" />
+<div class="border">
+<h4>Description</h4>
+<p>Air-Conditioning</p>
+<p>Kitchen</p>
+<p>Dining Area</p>
+<p>Heater</p>
+</div>
+</div>
+
+<div id="A3" class="tabcontent">
+<img class="inside" src="logo3.png" alt="A3_Picture" />
+<div class="border">
+<h4>Description</h4>
+<p>LCD TV</p>
+<p>Leather Cushion</p>
+<p>Large Fridge</p>
+<p>Internet Access</p>
+<p>Microwave</p>
+</div>
+</div>
+
+<div id="A4" class="tabcontent">
+<img class="inside" src="logo3.png" alt="A4_Picture" />
+<div class="border">
+<h4>Description</h4>
+<p>Freezer</p>
+<p>Oven</p>
+<p>Electric Stove</p>
+<p>Central Heating System</p>
+<p>Dish Washer</p>
+</div>
+</div>
+
+<div id="A5" class="tabcontent">
+<img class="inside" src="logo3.png" alt="A5_Picture" />
+<div class="border">
+<h4>Description</h4>
+<p>Bar with Complete Liquor Set</p>
+<p>Curve Oled TV</p>
+<p>Solar Powered</p>
+<p>Master Bedroom</p>
+<p>Filter System</p>
+</div>
+</div>
+
+<div class="price">
+<p>Price Per Day (RM)</p>
+<p><strong>RM500.00</strong></p>
+</div>
+
+<div class="book">
+<button>Book Now</button>
+</div>
+
+<footer>
+<ul>
+<li><a href="">Partnership</a></li>
+<li><a href="">Disclaimer</a></li>
+</ul>
+</footer>
+
+<script>
+function openPage(pageName,elmnt,color) {
+    var i, tabcontent, tablinks;
+    tabcontent = document.getElementsByClassName("tabcontent");
+    for (i = 0; i < tabcontent.length; i++) {
+        tabcontent[i].style.display = "none";
+    }
+    tablinks = document.getElementsByClassName("tablink");
+    for (i = 0; i < tablinks.length; i++) {
+        tablinks[i].style.backgroundColor = "";
+    }
+    document.getElementById(pageName).style.display = "block";
+    elmnt.style.backgroundColor = color;
+
+}
+document.getElementById("defaultOpen").click();
+</script>
+</body>
+
+
