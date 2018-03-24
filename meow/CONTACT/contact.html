@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="utf-8" />
+<meta name="description" content="RV Senpai Project/Assignment" />
+<meta name="keywords" content="RV, Senpai, Contact Us" />
+<meta name="author" content="Ericson Tan Peng Hong" />
+<title>| Home | RV Senpai |</title>
+<link rel="stylesheet" type="text/css" href="style.css"/>	
+</head>
+
+<body>
+<header>
+<a href=""><img class="logo" src="logo4.png" alt="RV Senpai Logo"/></a>
+<nav>
+<ul>
+<li><a href="">Home</a></li>
+<li><a href="">Products</a></li>
+<li><a href="">About Us</a></li>
+<li><a href="">Contact Us</a></li>
+</ul>
+</nav>
+</header>
+
+<section>
+<div class="h1_pic">
+<h1 class="quote_box">Carry Mi Senpai</h1>
+<figure>
+<img class="initial" src="home3.jpg" alt="Main Picture" />
+</figure>
+
+<hr/>
+
+</div>
+<div class="form">
+<article>	
+<h2>FeedBack Form</h2>
+
+<form id="FeedBack" method="post" action="form.php">
+<fieldset>
+<legend>Personal Information</legend>
+<p>
+<label for="name">Name :
+<input type="text" name="name" id="name" maxlength="50" size="20" required="required" pattern="^[a-zA-Z ]+$" placeholder="Your Name"/>
+</label>
+</p>
+<p>
+<label for="email">
+Email :
+<input type="email" name="email" id="email" maxlength="50" size="20" required="required" placeholder="Your email"/>
+</label>
+</p>
+</fieldset>
+
+<fieldset>
+<legend>Rate Our Service</legend>
+<p>
+<label>Is our service expensive ? <br/>
+<input type="radio" name="rate_price" value="cheap" required="required"/>Cheap
+</label>
+<label>
+<input type="radio" name="rate_price" value="affordable" />Affordable
+</label>
+<label>
+<input type="radio" name="rate_price" value="expensive"/>Expensive
+</label>
+</p>
+<p>
+<label for="satisfaction">Do you feel satisfied with our RV ? <br/></label>
+<select name="satisfaction" id="satisfaction">
+<option value="very_disatisfied">Very Disatisfied</option>
+<option value="disatisfied">Disatisfied</option>
+<option value="ok" selected="selected">OK</option>
+<option value="satisfied">Satisfied</option>
+<option value="very_satisfied">Very Satisfied</option>
+</select>
+</p>
+</fieldset>
+
+<fieldset>
+<legend>Improvement</legend>
+<p>
+<label for="comment">Comment :<br/>
+<textarea name="comment" id="comment" placeholder="How do you think we can improve our serive?" rows="5" cols="30"></textarea>
+</label>
+</p>
+</fieldset>
+
+
+
+</form>
+</article>
+</div>
+</section>
+
+<div class="map_section">
+<article>
+<h1>Our Location</h1>
+<div id="googlemap" style="width:50%;height:25em;background:green"></div>
+
+<script>
+function myMap() {
+var mapProp= {
+    center:new google.maps.LatLng(51.508742,-0.120850),
+    zoom:5,
+};
+var map=new google.maps.Map(document.getElementById("googleMap"),mapProp);
+}
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD8AZylijOoRn5zq6Szex7FBbtXheosp0s&callback=myMap"></script>
+</article>
+
+<div class="information">
+
+<aside>
+<h1>For More Enquiry</h1>
+<p>Phone Number : <a href=:tel:+123456789>+123456789</a>
+</p>
+<p>Email : <a href:"mailto:webmaster@example.com">webmaster@example.com</a>
+</p>
+<p>Fax : <a href="fax:+358.555.1234567">+358.555.1234567</a>
+</p>
+<p>Facebook : <a href="www.facebook.com">RV Senpai</a>
+</p>
+<p>Twitter : <a href="www.twitter.com">RV Senpai</a>
+</p>
+</aside>
+</div>
+</div>
+
+<footer>
+<ul>
+<li><a href="">Partnership</a></li>
+<li><a href="">Disclaimer</a></li>
+</ul>
+</footer>
+
+</body>
+</html>
