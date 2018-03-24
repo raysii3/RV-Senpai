@@ -171,7 +171,25 @@ body, html{
 }
 
 /*Contact Us Page CSS*/
-#googlemap{
-	width: 50%;
+.map_border{
 	float: left;
+	width:50%;
+}
+#googlemap{
+	height:25em;
+	background:green;
+}
+table tr td{
+	vertical-align: top;
+}
+table, table tr td{
+	padding: 0.2em;
+	margin: 0.1em;
+	font-size: 1.05em;
+}
+#enquiry table tr td{
+	line-height: 3.01em;
+}
+.information{
+	float:left;
 }
