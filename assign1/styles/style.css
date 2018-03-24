@@ -25,7 +25,7 @@ nav ul {
 }
 nav ul li {
     float: left;
-	font-size: 20px;
+	font-size: 15px;
 }
 nav ul li a {
     display: block;
@@ -43,33 +43,45 @@ nav ul li a:hover {
 }
 
 /* Images with Parallax effect*/
-.bigimg-1, .bigimg-2, .bigimg-3 {
+.bigimg-1, .bigimg-2, .bigimg-3, .bigimg-aboutus, .bigimg-product, .bigimg-contactus{
 	position: relative;
 	opacity: 0.65;
 	background-attachment: fixed;
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
-
 }
+/* Homepage big images*/
 .bigimg-1 {
 	background-image: url("images/home1.jpg");
 	min-height: 100%;
 }
-
 .bigimg-2 {
 	background-image: url("images/home2.jpg");
 	min-height: 400px;
 }
-
 .bigimg-3 {
 	background-image: url("images/home3.jpg");
 	min-height: 400px;
 }
-
+/* Rental Product big image */
+.bigimg-product{
+	background-image: url("images/product1.jpg");
+	min-height: 650px;
+}
+/* About Us big image */
+.bigimg-aboutus{
+	background-image: url("images/aboutus1.jpg");
+	min-height: 650px;
+}
+/* Contact Us big image */
+.bigimg-contactus{
+	background-image: url("images/contactus1.jpg");
+	min-height: 650px;
+}
 /* Turn off parallax scrolling for tablets and phones */
 @media only screen and (max-device-width: 1024px) {
-    .bigimg-1, .bigimg-2, .bigimg-3 {
+    .bigimg-1, .bigimg-2, .bigimg-3, .bigimg-aboutus , .bigimg-product, .bigimg-contactus{
         background-attachment: scroll;
     }
 }
@@ -92,17 +104,17 @@ nav ul li a:hover {
 	letter-spacing: 10px;
 }
 
-/* Border h1 */
+/* Size of h1 */
 .caption span.border {
-	font-size: 55px;
-}
-
-/* Border h2 */
-.caption span.border2 {
 	font-size: 45px;
 }
 
-/* The text inside bigimage1 */
+/* Size of h2 */
+.caption span.border2 {
+	font-size: 35px;
+}
+
+/* The text in white area background*/
 .white_background-article {
 	color: #777;
 	background-color:white;
@@ -121,7 +133,7 @@ h1, h2, h3, h4{
 }
 
 h3{
-	font-size: 35px;
+	font-size: 30px;
 }
 
 .h3_black_background{
@@ -129,7 +141,7 @@ h3{
 }
 
 h4{
-	font-size: 30px;
+	font-size: 25px;
 	color: white;
 	margin: 80px;
 }
@@ -139,7 +151,7 @@ h4{
 }
 
 p{
-	font-size: 25px;
+	font-size: 20px;
 	margin: 50px;
 }
 
@@ -164,7 +176,7 @@ article{
 .more_button a, .more_button_black_background a {
     display: block;
     text-align: center;
-	font-size: 20px;
+	font-size: 17px;
 	font-weight: bold;
 	letter-spacing: 5px;
     text-decoration: none;
@@ -200,8 +212,8 @@ figure{
 /* Homepage*/
 /* Images Display */
 .product_display_ABCT {
-	width: 600px;
-	margin: 50px;
+	width: 400px;
+	margin: 50px 5.1%;
 	float: left;
 	display: inline-block;
 	height: auto;
@@ -209,9 +221,9 @@ figure{
 }
 .more_coming_soon{
 	position: relative;
-	width: 600px;
-	padding: 127px 0;
-	margin: 50px;
+	width: 400px;
+	padding: 80px 0;
+	margin: 50px 5.1%;
 	float: left;
 	border: 1px;
 	background: #4CAF50;
@@ -232,7 +244,7 @@ figure{
 	padding: 100px;
 }
 .contact_info p{
-	margin: 5px;
+	margin: 2px;
 }
 .contact_info p a{
 	margin: 5px;
@@ -272,7 +284,7 @@ figure{
 }
 .hidden_text1, .hidden_text2, .hidden_text3, .hidden_text4 {
   color: white;
-  font-size: 25px;
+  font-size: 15px;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -303,7 +315,6 @@ footer{
 }
 
 footer a{
-	font-size: 20px;
     display: block;
     color: white;
     text-align: center;
@@ -315,8 +326,8 @@ footer a{
 
 /* Footer-Social Media Link */
 footer .fa {
-  padding: 30px;
-  font-size: 35px;
+  padding: 20px;
+  font-size: 30px;
   width: 35px;
   text-align: center;
   text-decoration: none;
@@ -355,34 +366,25 @@ footer .fa {
   color: white;
   text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 	
-	footer ul li{
-		list-style-type: none;
-		padding: 5px 25px;
-		display: inline-block;
-		font-size: 20px;
-	}
+footer ul li{
+	list-style-type: none;
+	padding: 5px 25px;
+	display: inline-block;
+	font-size: 15px;
+	font-weight: bold;
+}
 
-	footer ul li a{
-		color: white;
-		text-decoration: none;
-		font-size: 120%;
-	}
+footer ul li a{
+	color: white;
+	text-decoration: none;
+}
 
-	footer ul li a:hover{
-		text-decoration: underline;
-	}
+footer ul li a:hover{
+	text-decoration: underline;
+}
+
+footer p{
+	font-size: 13px;
+	margin: 0;
+}
