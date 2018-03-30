@@ -34,7 +34,7 @@
 				</div>
 				</li>
 			<li><a class="booking" href="enquiry.html">Booking</a></li>
-			<li><a class="active" href="contactus.html">Contact Us</a></li>
+			<li><a href="contactus.html">Contact Us</a></li>
 		</ul>
 	</nav>
 </header>
@@ -47,23 +47,9 @@
 	</div>
 
 	<article>
-		<div class="article_area">
-			<h3 class="h3_black_background">Contact Us</h3>
-			<h4>We Will Be There For You</h4>
-			<div id="map_block">
-			<iframe id="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.3916672644277!2d110.3550372147541!3d1.5322625988825767!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31fba70b11e02ce7%3A0x69cbf290cfd24bb7!2sSwinburne+University+of+Technology+Sarawak+Campus!5e0!3m2!1sen!2smy!4v1521882120760" frameborder="0" allowfullscreen></iframe>
-			</div>
-		
-			<div class="contact_info">
-				<p>Swinburne University of Technology Sarawak Campus Jalan Simpang Tiga 93350 Kuching, Sarawak, Malaysia</p>
-				<p>t: +60 82 415 353</p>
-				<p>f: +60 82 428 353</p>
-				<p>Any Question?<a href="mailto:100079958@students.swinburne.edu.my" target="-top">Email Us</a></p>
-			</div>
-		</div>
 	
-		<h3>Enquiry</h3>
-		<h4 class="white_bg">Send Us A Message</h4>
+		<h3>Feedback</h3>
+		<h4 class="white_bg">Improve & Do it BETTER</h4>
 		
 		<form method="post" action="form.php">
 		<fieldset>
@@ -83,13 +69,49 @@
 			</tr>
 		</table>
 		</fieldset><!--personal_info-->
-	
+		
 		<fieldset>
-		<legend>Comments</legend>
+		<legend>Rating</legend>
 		<table>
 			<tr>
 				<td>
-					<textarea name="comment" id="comment" rows="10" cols="50" placeholder="Send us your questions"></textarea>
+					<label> Is our service expensive ? </label>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<label><input type="radio" name="rate_price" value="cheap" required="required"/> Cheap</label>
+					
+					<label><input type="radio" name="rate_price" value="affordable"/> Affordable</label>
+					
+					<label><input type="radio" name="rate_price" value="expensive"/> Expensive</label>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<label>Do you feel satisfied with our RV ?</label>
+				</td>
+			</tr>
+			<tr>
+				<td>
+						<select name="satisfaction" id="satisfaction">
+							<option value="very_disatisfied">Very Disatisfied</option>
+							<option value="disatisfied">Disatisfied</option>
+							<option value="OK" selected="selected">OK</option>
+							<option value="satisfied">Satisfied</option>
+							<option value="very_satisfied">Very Satisfied</option>
+						</select>
+				</td>
+			</tr>
+		</table>
+		</fieldset><!--rating-->
+	
+		<fieldset>
+		<legend>Improvement</legend>
+		<table>
+			<tr>
+				<td>
+					<textarea name="comment" id="comment" rows="10" cols="50" placeholder="How do you think we can improve our service ? What do you think about our performance ?"></textarea>
 				</td>
 			</tr>
 		</table>
@@ -120,7 +142,7 @@
 		<li><a href="partnership.html">Partnership</a></li>
 		<li><a href="faq.html">FAQ</a></li>
 		<li><a href="disclaimer.html">Disclaimer</a></li>
-		<li><a href="feedback.html">Feedback</a></li>
+		<li><a class="footer_active" href="feedback.html">Feedback</a></li>
 	</ul>
 	
 	<div class="footer_followus">
