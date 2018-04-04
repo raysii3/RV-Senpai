@@ -3,7 +3,7 @@ body, html {
 	height: 100%;
 	margin: 0;
 	font: 400 15px/1.8 sans-serif;
-	color: #777;
+	color: rgb(119,119,119);
 }
 
 figure{
@@ -19,7 +19,7 @@ figure{
 nav .logo{
 	float: left;
 	text-decoration: none;
-	color: white;
+	color: rgb(255,255,255);
 	font-weight: bold;
 	font-size: 25px;
 	font-family: sans-serif;
@@ -29,7 +29,7 @@ nav .logo{
 }
 
 nav{
-	background-color: #333;
+	background-color: rgb(48,48,48);
 	display: block;
 	position: fixed;
 	top: 0;
@@ -49,24 +49,24 @@ nav ul li {
 }
 nav ul li a {
     display: block;
-    color: white;
+    color: rgb(255,255,255);
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
 }
 nav ul li a:hover {
-    background-color: #111;
+    background-color:rgb(17,17,17);
 }
 
 .booking{
-	background: #1e90ff;
+	background: rgb(30,144,255);
 }
 
 .product_dropdown .dropbtn {
 	font-size: 15px; 
     border: none;
     outline: none;
-    color: white;
+    color: rgb(255,255,255);
     background-color: inherit;
     font-family: inherit;
     margin: 0;
@@ -74,14 +74,14 @@ nav ul li a:hover {
 .product_dropdown_content {
     display: none;
     position: absolute;
-    background-color: #333;
+    background-color: rgb(48,48,48);
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 50;
 }
 .product_dropdown_content a{
 	float: none;
-	color: white;
+	color: rgb(255,255,255);
 	text-decoration: none;
 	display: block;
 	text-align: center;
@@ -92,18 +92,18 @@ nav ul li a:hover {
 
 /*CSS Validation say .dropbtn is a CSS hack*/
 .product_dropdown_content:hover{
-	/*background-color: #4CAF50;	
+	/*background-color: rgb(76,175,80);	
 	.dropbtn{
-		background-color: #4CAF50;	
+		background-color: rgb(76,175,80);	
 	}*/
 }
 
 /*To indicate the current active Web-page*/
 .active{
-	background-color: #4CAF50;
+	background-color: rgb(76,175,80);
 }
 .footer_active{
-	color: #4CAF50;
+	color: rgb(76,175,80);
 }
 
 /* Images with Parallax effect*/
@@ -179,13 +179,13 @@ nav ul li a:hover {
 	top: 50%;
 	width: 100%;
 	text-align: center;
-	color: #000;
+	color: rgb(0,0,0);
 }
 
 /* Border of h1 & h2*/
 .caption span.border, .caption span.border2 {
-	background-color: #4CAF50;
-	color: #fff;
+	background-color: rgb(76,175,80);
+	color: rgb(225,255,255);
 	padding: 18px;
 	letter-spacing: 10px;
 }
@@ -202,8 +202,8 @@ nav ul li a:hover {
 
 /* The text in white area background*/
 .white_background-article, .white_background-questionaire {
-	color: #777;
-	background-color:white;
+	color: rgb(119,119,119);
+	background-color:rgb(255,255,255);
 	text-align:center;
 	padding:50px 80px;
 	text-align: justify;
@@ -215,7 +215,7 @@ h1, h2, h3, h4{
 	letter-spacing: 5px;
 	text-transform: uppercase;
 	font: 1px sans-serif;
-	color: #111;
+	color:rgb(17,17,17);
 }
 
 h3{
@@ -223,17 +223,17 @@ h3{
 }
 
 .h3_black_background{
-	color: white;
+	color: rgb(255,255,255);
 }
 
 h4{
 	font-size: 25px;
-	color: white;
+	color: rgb(255,255,255);
 	margin: 80px;
 }
 
 .white_bg{
-	color: black;
+	color: rgb(0,0,0);
 }
 
 p{
@@ -247,8 +247,8 @@ article{
 }
 
 .article_area{
-	color: #ddd;
-	background-color: #282E34;
+	color: rgb(221,221,221);
+	background-color: rgb(40,46,52);
 	text-align: center;
 	padding: 50px 80px;
 	text-align: justify;
@@ -268,25 +268,25 @@ article{
     text-decoration: none;
 }
 .more_button {
-	background-color: #333;
+	background-color: rgb(48,48,48);
 }
 .more_button a { 
-    color: white;
+    color: rgb(255,255,255);
 }
 .more_button a:hover{ 
-    background-color: white;
-	color: black;
+    background-color: rgb(255,255,255);
+	color: rgb(0,0,0);
 }
 .more_button_black_background{
-	background-color: white;
+	background-color: rgb(255,255,255);
 	clear: both;
 }
 .more_button_black_background a{
-	color: black;
+	color: rgb(0,0,0);
 }
 .more_button_black_background a:hover { 
-    background-color: black;
-	color: white;
+    background-color: rgb(0,0,0);
+	color: rgb(255,255,255);
 }
 
 figure{
@@ -317,7 +317,7 @@ figure{
 	margin: 50px 5.1%;
 	float: left;
 	border: 1px;
-	background: #4CAF50;
+	background: rgb(76,175,80);
 	text-align: center;
 	font-weight: bold;
 	letter-spacing: 5px;
@@ -340,7 +340,7 @@ figure{
 }
 .contact_info p a{
 	margin: 5px;
-    color: #2A93D5;
+    color: rgb(42,147,213);
     padding: 14px 16px;
     text-decoration: none;
 }
@@ -368,14 +368,14 @@ figure{
   width: 100%;
   opacity: 0;
   transition: .5s ease;
-  background-color: #4CAF50;
+  background-color: rgb(76,175,80);
 }
 .product_A:hover .overlay1, .product_B:hover .overlay2, .product_C:hover .overlay3, .product_T:hover .overlay4 , .partnership_A:hover .overlay1, .partnership_B:hover .overlay2, .partnership_C:hover .overlay3{
 	opacity: 1;
 	margin-left: 125%;
 }
 .hidden_text1, .hidden_text2, .hidden_text3, .hidden_text4 {
-  color: white;
+  color: rgb(255,255,255);
   font-size: 15px;
   position: absolute;
   top: 50%;
@@ -395,7 +395,7 @@ figure{
 }
 
 .panel {
-	background-color: #fff;
+	background-color: rgb(225,255,255);
 	border-radius: 10px;
 	position: relative;
 	width: 100%;
@@ -416,7 +416,7 @@ figure{
   
   .pricing_plan {
     border-bottom: none;
-    border-right: 1px solid #e1f1ff;
+    border-right: 1px solid rgb(225,241,255);
     flex-basis: 100%;
     padding: 25px 50px;
   }
@@ -432,7 +432,7 @@ figure{
 }
 
 .pricing_plan {
-	border-bottom: 1px solid #e1f1ff;
+	border-bottom: 1px solid rgb(225,241,255);
 	padding: 25px;
 }
 .pricing_plan:last-child {
@@ -440,21 +440,21 @@ figure{
 }
 
 .pricing_img {
-	border: 1px solid #ddd;
+	border: 1px solid rgb(221,221,221);
     border-radius: 4px;
     max-width: 100%;
 	width: 100%
 }
 
 .pricing_header {
-  color: #888;
+  color: rgb(128,128,128);
   font-weight: 600;
   letter-spacing: 2px;
   font-size: 30px;
 }
 
 .pricing_features {
-  color: #016FF9;
+  color: rgb(1,111,249);
   font-weight: 600;
   letter-spacing: 1px;
   margin: 50px 0 25px;
@@ -463,7 +463,7 @@ figure{
 }
 
 ul.pricing_features li {
-	border-top: 1px solid #e1f1ff;
+	border-top: 1px solid rgb(225,241,255);
 	font-size: 16px;
 	line-height: 1.5;
 	padding: 15px 0;
@@ -483,7 +483,7 @@ ul.pricing_features li {
 .pricing_button {
   border: 1px solid #9dd1ff;
   border-radius: 10px;
-  color: #348EFE;
+  color: rgb(52,142,254);
   display: inline-block;
   margin: 25px 0;
   padding: 15px 35px;
@@ -493,18 +493,10 @@ ul.pricing_features li {
 
 .pricing_button:hover,
 .pricing_button:focus {
-  background-color: #e1f1ff;
+  background-color: rgb(225,241,255);
 }
 
-/* .pricing_button.is-featured { */
-  /* background-color: #48aaff; */
-  /* color: #fff; */
-/* } */
 
-/* .pricing_button.is-featured:hover, */
-/* .pricing_button.is-featured:active { */
-  /* background-color: #269aff; */
-/* } */
 
 
 
@@ -533,8 +525,8 @@ table tr td {
 }
 
 input[type=submit], input[type=reset] {
-    background-color: black;
-    color: white;
+    background-color: rgb(0,0,0);
+    color: rgb(255,255,255);
     padding: 7px 10px;
     border: none;
     cursor: pointer;
@@ -543,8 +535,8 @@ input[type=submit], input[type=reset] {
 }
 
 input[type=submit]:hover, input[type=reset]:hover, input[type=radio]:hover {
-	background-color:  #4CAF50;
-	color: white;
+	background-color:  rgb(76,175,80);
+	color: rgb(255,255,255);
 	
 }
 
@@ -567,7 +559,7 @@ ol li{
 /* Disclaimer */
 #dis_link {
 	text-decoration: none;
-	color: #1e90ff;
+	color: rgb(30,144,255);
 }
 
 #dis_link:hover {
@@ -593,14 +585,14 @@ ol li{
 
 /* Footer */
 footer{
-	background-color: #282E34;
+	background-color: rgb(40,46,52);
 	padding: 1%;
 	text-align: center;
 }
 
 footer a{
     display: block;
-    color: white;
+    color: rgb(255,255,255);
     text-align: center;
 	text-decoration: none;
 }
@@ -623,32 +615,32 @@ footer .fa {
 }
 .fa-facebook {
   background: #3B5998;
-  color: white;
+  color: rgb(255,255,255);
 }
 .fa-twitter {
   background: #55ACEE;
-  color: white;
+  color: rgb(255,255,255);
 }
 .fa-google {
   background: #dd4b39;
-  color: white;
+  color: rgb(255,255,255);
 }
 .fa-youtube {
   background: #bb0000;
-  color: white;
+  color: rgb(255,255,255);
 }
 .fa-instagram {
   background: #125688;
-  color: white;
+  color: rgb(255,255,255);
 }
 .fa-pinterest {
   background: #cb2027;
-  color: white;
+  color: rgb(255,255,255);
 }
 .fa-snapchat-ghost {
-  background: #fffc00;
-  color: white;
-  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  background: rgb(255,252,0);
+  color: rgb(255,255,255);
+  text-shadow: -1px 0 rgb(0,0,0), 0 1px rgb(0,0,0), 1px 0 rgb(0,0,0), 0 -1px rgb(0,0,0);
 }
 	
 footer ul li{
@@ -660,7 +652,7 @@ footer ul li{
 }
 
 footer ul li a{
-	color: white;
+	color: rgb(255,255,255);
 	text-decoration: none;
 }
 
