@@ -219,15 +219,6 @@ nav ul li a:hover {
 	padding:50px 80px;
 	text-align: justify;
 }
-.white_background-article2{
-	color: rgb(119,119,119);
-	background-color: rgb(255,255,255);
-	text-align:center;
-	padding:50px 80px;
-	text-align: justify;
-	height: 1500px;
-}
-	
 
 /* h1, h2, h3*/
 h1, h2, h3, h4{
@@ -576,9 +567,24 @@ input[type=submit]:hover, input[type=reset]:hover, input[type=radio]:hover {
 /* FAQ */
 ol li{
 	font-size: 20px;
-}
-.ans{
 	font-weight: bold;
+}
+#question{
+	margin: 100px 10%;
+}
+.f_q{
+	text-decoration: none;
+	color: rgb(255,255,255);
+}
+.f_q:hover{
+	text-decoration: underline;
+}
+.f_q:active{
+	animation-duration: 5s;
+}		
+
+.faq_question{
+	margin: 0;
 }
 .faq{
 	text-align: left;
@@ -599,33 +605,13 @@ ol li{
 	text-decoration: underline;
 }
 
-/*Member's CSS*/
-.member1{
-	text-align: center;
-	float: left;
-	width: 50%;
-}
-.member2{
-	text-align: center;
-	float: right;
-	width: 50%;
-}	
-.member34{
-	clear: both;
-}
-.member3{
-	text-align: center;
-	float: left;
-	width: 50%;
-}
-.member4{
-	text-align: center;
-	float: right;
-	width: 50%;
-}
-.member1 ul>li, .member2 ul>li, .member3 ul>li, .member4 ul>li{
-	list-style-type: none;
-}
+
+
+
+
+
+
+
 
 
 
