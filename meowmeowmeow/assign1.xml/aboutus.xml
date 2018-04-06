@@ -19,6 +19,7 @@
 
 <header>
 	<nav>
+		<a class="logo" href="index.html" title="RV Senpai HomePage">RV SENPAI</a>
 		<ul>
 			<li><a href="index.html" title="RV Senpai HomePage">Home</a></li>
 			<li><a class="active" href="aboutus.html" title="Abour RV Senpai">About Us</a></li>
@@ -53,10 +54,67 @@
 	
 	<div class="bigimg_aboutus">
 		<div class="caption">
-		<h2><span class="border2">COOL!</span></h2>
+		<h2><span class="border2">Teaches Toleration</span></h2>
 		</div>
 	</div>
 
+	<article class="white_background-article2">
+	
+	<div class="member12">
+		<div class="member1">
+			<a href="#" title="Ericson's cute face"> <img src="images/ericson2.jpg" alt="Ericson's cute face"/> </a>
+			<p><strong>Ericson Tan Peng Hong</strong></p>
+			<ul>
+				<li>The founder and the ceo of the company.</li>
+				<li>A graduate of the degree of Information Technology from Swinburne University Melbourne.</li>
+				<li>The person who is in charge to monitor the overall operation of the company.</li>
+				<li>Interested in computing and automobile.</li>
+				<li>Likes to hum annoying rhythm while working with teammates.</li>
+			</ul>
+		</div>
+		
+		<div class="member2">
+			<a href="#" title="Raymond Sii pic"><img src="images/raymond2.jpg" alt="Raymond Sii pic" /> </a>
+			<p><strong>Raymond Sii</strong></p>
+			<ul>
+				<li>The manager of the IT department in the company.</li>
+				<li>A graduate of the degree of Information Technology from Swinburne University of Technology, Sarawak.</li>
+				<li>In charge of monitoring and distribution tasks in the entire IT department.</li>
+				<li>Interested to attend conferences or workshop regarding to businesses or computing to improve himself.</li>
+			</ul>
+		</div>
+		</div>
+		
+		<div class="member34">
+		<div class="member3">
+			<a href="#" title="Loo Wei Jit Pic"><img src="images/loo2.jpg" alt="Loo Wei Jit pic" /> </a>
+			<p><strong>Loo Wei Jit</strong></p>
+			<ul>
+				<li>One of the IT executive in the company.</li>
+				<li>Major in database system from Swinburne University of Technology, Sarawak.</li>
+				<li>In charge of maintaining and recording the company's data in the server and also developing and maintaining the company's website.</li>
+				<li>Interested in playing basketball and programming.</li>
+			</ul>
+		</div>
+		
+		<div class="member4">
+			<img src="images/ian2.jpg" alt="Ian Chung pic" title="Ian Chung pic"/>
+			<p><strong>Ian Chung</strong></p>
+			<ul>
+				<li>Another IT executive in the company.</li>
+				<li>Major in networking from Swinburne University of Technology, Sarawak.</li>
+				<li>In charge of the company's network system and also the company's website.</li>
+				<li>Interested in cycling and automobile.</li>
+			</ul>
+		</div>
+		</div>
+	</article>
+	
+	<div class="bigimg_aboutus">
+		<div class="caption">
+		<h2><span class="border2">Teaches Toleration</span></h2>
+		</div>
+	</div>
 	
 <footer>
 
