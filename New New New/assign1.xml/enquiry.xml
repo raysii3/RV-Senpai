@@ -53,7 +53,7 @@
 		<h3>Booking</h3>
 		<h4 class="white_bg">RELAX and Enjoy</h4>
 		
-		<form method="post" id="enquiry">
+		<form method="post" id="enquiry" id="enquiry">
 			<fieldset>
 				<legend>Personal Detail</legend>
 					<table>
