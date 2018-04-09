@@ -4,10 +4,10 @@
 <head>
     <meta charset="utf-8" />
     <meta name="description" content="RV Senpai Project/Assignment" />
-    <meta name="keywords" content="RV, Senpai, RV Senpai Product" />
+    <meta name="keywords" content="RV, Senpai, Ericson Tan Peng Hong" />
     <meta name="author" content="Ericson Tan Peng Hong, Loo Wei Jit, Raymond Sii Li Sheng, Ian Chung Ye Earn" />
 	
-    <title>RV Rental | RV Senpai</title>
+    <title>Ericson Tan Peng Hong | RV Senpai</title>
 	
 	<link rel="stylesheet" type="text/css" href="styles/style.css"/>
 	<!-- Link for social media -->
@@ -20,16 +20,16 @@
 
 <header>
 	<nav>
-	<a class="logo" href="index.html" title="RV Senpai HomePage">RV SENPAI</a>
+		<a class="logo" href="index.html" title="RV Senpai HomePage">RV SENPAI</a>
 		<ul>
 			<li><a href="index.html" title="RV Senpai HomePage">Home</a></li>
-			<li><a href="aboutus.html" title="About RV Senpai">About Us</a></li>
-			<li><div class="product_dropdown active">
+			<li><a class="active" href="aboutus.html" title="Abour RV Senpai">About Us</a></li>
+			<li><div class="product_dropdown">
 					<a class="dropbtn" href="product.html" title="RV Senpai RVs">Rental</a>
 					<div class="product_dropdown_content">
 						<a href="classa.html" title="Class A Motorhome">Class A</a>
 						<a href="classb.html" title="Class B Motorhome">Class B</a>
-						<a href="classc.html" title="Class C Motorhome">Class C</a>
+						<a href="classc.html" title="Class C MotorHome">Class C</a>
 						<a href="trailer.html" title="Trailer RV">Trailer</a>
 					</div>
 				</div>
@@ -40,61 +40,75 @@
 	</nav>
 </header>
 
-	<div class="bigimg_product">
+	<div class="bigimg_aboutus">
 		<div class="caption">
-			<h1><span class="border">Travel With</span></h1>
+		<h1><span class="border">Ericson Tan Peng Hong</span></h1>
 		</div>
 	</div>
-	
-	<article>
-		<div class="article_area">
-		<h3 class="h3_black_background">Rental Product</h3>
-		<h4>We Are Different for a Reason</h4>
+
+	<aside class="white_background-article">
+		<div class="aboutme">
+			<img src="images/ericson2.jpg" alt="Ericson's cute face"/>
+			<p class="name">Ericson Tan Peng Hong</p>
+			<p class="number">100079958</p>
+			<p class="course">BA-ICT</p>
 		
-		<!--The image of the following product is found in google image.-->
-		<figure>
-			<div class="product_A">
-				<a href="classa.html" title="Class A Motorhome"><img src="images/class-a.jpg" alt="Class A" class="product_display_A" />
-					<div class="overlay1">
-						<div class="hidden_text1">Our Class A Motorhome is built on a bus frame that has been combine with titanium plate. </div>
-					</div></a>
-			</div>
-		</figure>
-		<figure>
-			<div class="product_B">
-				<a href="classb.html" title="Class B Motorhome"><img src="images/class-b.jpg" alt="Class B" class="product_display_B" />
-					<div class="overlay2">
-						<div class="hidden_text2">Our Class B Motorhome is based on truck fame but it looks smaller but sufficient feature. </div>
-					</div></a>
-			</div>
-		</figure>
-		<figure>
-			<div class="product_C">
-				<a href="classc.html" title="Class C Motorhome"><img src="images/class-c.jpg" alt="Class C" class="product_display_C" />
-					<div class="overlay3">
-						<div class="hidden_text3">Our Class C Motorhome is a van size motorhome that suitable for small family. </div>
-					</div></a>
-			</div>
-		</figure>
-		<figure>
-			<div class="product_T">
-				<a href="trailer.html" title="Trailer RV"><img src="images/trailer.jpg" alt="Trailer" class="product_display_D" />
-					<div class="overlay4">
-						<div class="hidden_text4">The Trailer must be towed by car because it does not have engine but with good facilities. </div>
-				</div></a>
-			</div>
-		</figure>
-		</div>
-	</article>
+			
+
+	<table class="aboutme_table">
+		<caption>Contribution Table</caption>
+			<tr>
+			<th>Contribution</th>
+			<th>Details</th>
+			</tr>
+			<tr>
+			<td>CSS</td>
+			<td>The font-family, background-color, font color, article color, parallax images, navigation bar, form and table layout</td>
+			</tr>
+			<tr>
+			<td>HTML</td>
+			<td>Navigation Bar, Form and Table</td>
+			</tr>
+			<tr>
+			<td>Design Layout</td>
+			<td>The Homepage and All other pages layout design</td>
+			</tr>
+			<tr>
+			<td>index.html</td>
+			<td>the layout, "more" button, white and black ground</td>
+			</tr>
+			<tr>
+			<td>product.html</td>
+			<td>the overlay effect when hover</td>
+			</tr>
+			<tr>
+			<td>contact.html</td>
+			<td>the embed Google map and form</td>
+			</tr>
+			<tr>
+			<td>aboutus.html</td>
+			<td>the design layout only</td>
+			</tr>
+			<tr>
+			<td>enquiry.html</td>
+			<td>the form layout only</td>
+			</tr>
+			<tr>
+			<td>Enhancement</td>
+			<td>Parallax images, overlay effect on hover</td>
+			</tr>
+	</table>
+	</div>
+	</aside>
 	
-	<div class="bigimg_product">
+	<div class="bigimg_aboutus">
 		<div class="caption">
-			<h1><span class="border">RV-Senpai</span></h1>
+		<h2><span class="border2">Bring You Fly</span></h2>
 		</div>
 	</div>
-
-
+	
 <footer>
+	
 
 	<ul>
 		<li><a href="partnership.html" title="RV Senpai Partner">Partnership</a></li>
@@ -113,9 +127,7 @@
 	<a href="https://www.youtube.com/" target="_blank" class="fa fa-youtube" title="RV Senpai Youtube Channel"></a>
 	</div>	
 
-	<div class="copyright">
-	<p>@ Amazing Retards | Page developed by Ericson Tan Peng Hong, Loo Wei Jit, Raymond Sii Li Sheng, Ian Chung Ye Earn | Last updated: 24 March 2018</p>
-	</div>
+	<p>Ericson Tan Peng Hong Email:<a href="100079958@students.swinburne.edu.my" title="Ericson Email" target="_top" class="student_email">100079958@students.swinburne.edu.my</a></p>
 	
 </footer>
 </body>

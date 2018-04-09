@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang='en'>
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="description" content="RV Senpai Project/Assignment" />
+    <meta name="keywords" content="RV, Senpai, Class A Product" />
+    <meta name="author" content="Ericson Tan Peng Hong, Loo Wei Jit, Raymond Sii Li Sheng, Ian Chung Ye Earn" />
+	
+    <title>Class A RV | RV Senpai</title>
+	
+	<link rel="stylesheet" type="text/css" href="styles/style.css"/>
+	<!-- Link for social media -->
+	<!-- https://www.w3schools.com/howto/howto_css_social_media_buttons.asp -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
+	
+</head>
+
+<body>
+
+<header>
+	<nav>
+		<a class="logo" href="index.html" title="RV Senpai HomePage">RV SENPAI</a>
+		<ul>
+			<li><a href="index.html" title="RV Senpai HomePage">Home</a></li>
+			<li><a href="aboutus.html" title="Abour RV Senpai">About Us</a></li>
+			<li><div class="product_dropdown active">
+					<a class="dropbtn" href="product.html" title="RV Senpai RVs">Rental</a>
+					<div class="product_dropdown_content">
+						<a href="classa.html" class="active" title="Class A Motorhome">Class A</a>
+						<a href="classb.html" title="Class B Motorhome">Class B</a>
+						<a href="classc.html" title="Class C Motorhome">Class C</a>
+						<a href="trailer.html" title="Trailer RV">Trailer</a>
+					</div>
+				</div>
+			</li>
+			<li><a class="booking" href="enquiry.html" title="Rent Your RV Here">Booking</a></li>
+			<li><a href="contactus.html" title="Contact RV Senpai">Contact Us</a></li>
+		</ul>
+	</nav>
+</header>
+
+	<div class="bigimg_product_a">
+		<div class="caption">
+			<h1><span class="border">Class A</span></h1>
+		</div>
+	</div>
+	
+	<article>
+	<div class="article_area">
+		<div class="container">
+			<div class="panel pricing_table">
+				<div class="pricing_plan">
+					<h2 class="pricing_header">Basic</h2>
+					<img src="images/classa/basic.jpg" alt="Basic Class A" class="pricing_img"/>
+					<ul class="pricing_features">
+						<li><span class="pricing_price">RM500</span><span class="pricing_price_tag">per day<br /></span></li>
+						<li>Small Fridge</li>	
+						<li>Fan</li>
+						<li>Bathroom</li>
+						<li>Bedroom</li>
+						<li><a href="enquiry.html" class="pricing_button" title="Rent This RV">Rent</a></li>
+					</ul>
+				</div>
+				
+				<div class="pricing_plan">
+					<h2 class="pricing_header">Standard</h2>
+					<img src="images/classa/standard.jpg" alt="Standard Class A" class="pricing_img"/>
+					<ul class="pricing_features">
+						<li><span class="pricing_price">RM800</span><span class="pricing_price_tag">per day<br /></span></li>
+						<li>Air-Conditioning</li>
+						<li>Kitchen</li>
+						<li>Dining Area</li>
+						<li>Heater</li>
+						<li><a href="enquiry.html" class="pricing_button" title="Rent This RV">Rent</a></li>
+					</ul>
+				</div>
+				
+				<div class="pricing_plan">
+					<h2 class="pricing_header">Popular</h2>
+					<img src="images/classa/popular.jpg" alt="Popular Class A" class="pricing_img"/>
+					<ul class="pricing_features">
+						<li><span class="pricing_price">RM1100</span><span class="pricing_price_tag">per day<br /></span></li>
+						<li>LCD TV</li>
+						<li>Leather Cushion</li>
+						<li>Large Fridge</li>
+						<li>Internet Access</li>
+						<li>Microwave</li>
+						<li><a href="enquiry.html" class="pricing_button" title="Rent This RV">Rent</a></li>
+					</ul>
+				</div>
+				
+				<div class="pricing_plan">
+					<h2 class="pricing_header">Premium</h2>
+					<img src="images/classa/premium.jpg" alt="Premium Class A" class="pricing_img"/>
+					<ul class="pricing_features">
+						<li><span class="pricing_price">RM1400</span><span class="pricing_price_tag">per day<br /></span></li>
+						<li>Freezer</li>
+						<li>Oven</li>
+						<li>Electric Stove</li>
+						<li>Central Heating System</li>
+						<li>Dish Washer</li>
+						<li><a href="enquiry.html" class="pricing_button" title="Rent This RV">Rent</a></li>
+					</ul>
+				</div>
+				
+				<div class="pricing_plan">
+					<h2 class="pricing_header">Luxury</h2>
+					<img src="images/classa/luxury.jpg" alt="Luxury Class A" class="pricing_img"/>
+					<ul class="pricing_features">
+						<li><span class="pricing_price">RM1700</span><span class="pricing_price_tag">per day<br /></span></li>
+						<li>Bar with Complete Liquor Set</li>
+						<li>Curve Oled TV</li>
+						<li>Solar powered</li>
+						<li>Master Bedroom</li>
+						<li>Filter System</li>
+						<li><a href="enquiry.html" class="pricing_button" title="Rent This RV">Rent</a></li>
+					</ul>
+				</div>
+			  </div>
+			</div>
+		 </div>
+	</article>
+	
+	<div class="bigimg_product_a">
+		<div class="caption">
+			<h1><span class="border">With RV-Senpai</span></h1>
+		</div>
+	</div>
+	
+	
+	<footer>
+
+		<ul>
+		<li><a href="partnership.html" title="RV Senpai Partner">Partnership</a></li>
+		<li><a href="faq.html" title="RV Senpai FAQ">FAQ</a></li>
+		<li><a href="disclaimer.html" title="Disclaimer">Disclaimer</a></li>
+		<li><a href="feedback.html" title="RV Senpai Feedback Form">Feedback</a></li>
+		</ul>
+		
+		<div class="footer_followus">
+		<a href="https://www.instagram.com/" target="_blank" class="fa fa-instagram" title="RV Senpai Instagram"></a>
+		<a href="https://www.facebook.com/" target="_blank" class="fa fa-facebook" title="RV Senpai Facebook"></a>
+		<a href="https://twitter.com/" target="_blank" class="fa fa-twitter" title="RV Senpai Twitter"></a>
+		<a href="https://www.pinterest.com/" target="_blank" class="fa fa-pinterest" title="RV Senpai Pinterest"></a>
+		<a href="https://www.snapchat.com/" target="_blank" class="fa fa-snapchat-ghost" title="RV Senpai Snapchat"></a>
+		<a href="https://www.google.com/" target="_blank" class="fa fa-google" title="RV Senpai Google Page"></a>
+		<a href="https://www.youtube.com/" target="_blank" class="fa fa-youtube" title="RV Senpai Youtube Channel"></a>
+		</div>	
+
+		<p>@ Amazing Retards | Page developed by Ericson Tan Peng Hong, Loo Wei Jit, Raymond Sii Li Sheng, Ian Chung Ye Earn | Last updated: 27 March 2018</p>
+		
+	</footer>
+</body>
+
+</html>
