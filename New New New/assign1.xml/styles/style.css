@@ -209,14 +209,7 @@ nav ul li a:hover {
 	padding:50px 80px;
 	text-align: justify;
 }
-.white_background-article2{
-	color: rgb(119,119,119);
-	background-color: rgb(255,255,255);
-	text-align:center;
-	padding:50px 80px;
-	text-align: justify;
-}
-	
+
 
 /* h1, h2, h3*/
 h1, h2, h3, h4{
@@ -557,6 +550,7 @@ ol li{
 }
 .p_ans{
 	margin-top: 0px;
+	text-align:left;
 }
 
 /* Disclaimer */
@@ -575,7 +569,7 @@ ol li{
 	padding: 0 0;
 }
 .member_area {
-	padding: 50px 0 0 20%;
+	padding: 50px 0 0 12.5%;
 	
 }
 .member1, .member2, .member3, .member4 {
