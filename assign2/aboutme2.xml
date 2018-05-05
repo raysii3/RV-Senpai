@@ -4,10 +4,10 @@
 <head>
     <meta charset="utf-8" />
     <meta name="description" content="RV Senpai Project/Assignment" />
-    <meta name="keywords" content="RV, Senpai, Ericson Tan Peng Hong" />
-    <meta name="author" content="Ericson Tan Peng Hong, Loo Wei Jit, Raymond Sii Li Sheng, Ian Chung Ye Earn" />
+    <meta name="keywords" content="RV, Senpai, Raymond Sii Li Sheng" />
+    <meta name="author" content="Ericson Tan Peng Hong, Raymond Sii Li Sheng, Loo Wei Jit, Ian Chung Ye Earn" />
 	
-    <title>Ericson Tan Peng Hong | RV Senpai</title>
+    <title>Raymond Sii Li Sheng | RV Senpai</title>
 	
 	<link rel="stylesheet" type="text/css" href="styles/style.css"/>
 	<!-- Link for social media -->
@@ -50,63 +50,60 @@
 
 	<div class="bigimg_aboutus">
 		<div class="caption">
-		<h1><span class="border">Ericson Tan Peng Hong</span></h1>
+		<h1><span class="border">Raymond Sii Li Sheng</span></h1>
 		</div>
 	</div>
 
 	<aside class="white_background-article">
 		<div class="aboutme">
-			<img src="images/ericson2.jpg" alt="Ericson's cute face"/>
-			<p class="name">Ericson Tan Peng Hong</p>
-			<p class="number">100079958</p>
-			<p class="course">BA-ICT</p>
-		
-			
-
-	<table class="aboutme_table">
-		<caption>Contribution Table</caption>
+			<img src="images/raymond2.jpg" alt="Raymond's cute face"/>
+			<p class="name">Raymond Sii Li Sheng</p>
+			<p class="number">101213537</p>
+			<p class="course">BA-CS</p>
+			<table class="aboutme_table">
+			<caption>Contribution Table</caption>
 			<tr>
 			<th>Contribution</th>
 			<th>Details</th>
 			</tr>
 			<tr>
 			<td>CSS</td>
-			<td>The font-family, background-color, font color, article color, parallax images, navigation bar, form and table layout</td>
+			<td>Responsive Layout, drop down navigation links and table layout</td>
 			</tr>
 			<tr>
 			<td>HTML</td>
-			<td>Navigation Bar, Form and Table</td>
+			<td>description in product pages and images</td>
 			</tr>
 			<tr>
-			<td>Design Layout</td>
-			<td>The Homepage and All other pages layout design</td>
+			<td>classa.html</td>
+			<td>table layout and description</td>
 			</tr>
 			<tr>
-			<td>index.html</td>
-			<td>the layout, "more" button, white and black ground</td>
+			<td>classb.html</td>
+			<td>table layout and description</td>
 			</tr>
 			<tr>
-			<td>product.html</td>
-			<td>the overlay effect when hover</td>
+			<td>classc.html</td>
+			<td>table layout and description</td>
 			</tr>
 			<tr>
-			<td>contact.html</td>
-			<td>the embed Google map and form</td>
+			<td>trailer.html</td>
+			<td>table layout and description</td>
 			</tr>
 			<tr>
-			<td>aboutus.html</td>
-			<td>the design layout only</td>
+			<td>Images</td>
+			<td>Searching Images for product pages</td>
 			</tr>
 			<tr>
-			<td>enquiry.html</td>
-			<td>the form layout only</td>
+			<td>Information</td>
+			<td>Information in product pages</td>
 			</tr>
 			<tr>
 			<td>Enhancement</td>
-			<td>Parallax images, overlay effect on hover</td>
+			<td>Drop down navigation bar links</td>
 			</tr>
-	</table>
-	</div>
+			</table>
+		</div>
 	</aside>
 	
 	<div class="bigimg_aboutus">
@@ -138,7 +135,7 @@
 	<a href="https://www.youtube.com/" target="_blank" class="fa fa-youtube" title="RV Senpai Youtube Channel"></a>
 	</div>	
 
-	<p>Ericson Tan Peng Hong Email:<a href="100079958@students.swinburne.edu.my" title="Ericson Email" target="_top" class="student_email">100079958@students.swinburne.edu.my</a></p>
+	<p>Raymond Sii Li Sheng Email:<a href="101213537@students.swinburne.edu.my" title="Raymond Email" target="_top" class="student_email">101213537@students.swinburne.edu.my</a></p>
 	
 </footer>
 </body>
