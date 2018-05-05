@@ -8,8 +8,10 @@ body, html {
 figure{
 	margin: 0;
 }
+
 *, *:before, *:after {
   box-sizing: inherit;
+  /* box-sizing: border-box;*/
 }
 
 
@@ -740,24 +742,32 @@ hr {
     text-align: center;
 }
 #photo .row {
-    display: -ms-flexbox;
     display: flex;
     flex-wrap: wrap;
     padding: 0 4px;
+	box-sizing: border-box;
 }
 #photo .column {
     flex: 50%;
 }
 #photo .column img {
-	width: 150px;
-	margin-bottom: 50px;
+	width: 100%;
     vertical-align: middle;
+	margin-bottom: 15px;
 }
 #photo .btn {
-	background-color: black;
-    font-size: 30px;
-	color: white;
+    border: none;
+    outline: none;
+    padding: 10px 16px;
+	margin: 10px 5px;
+    background-color: #f1f1f1;
+    cursor: pointer;
+    font-size: 25px;
 }
+#photo .btn:hover {
+    background-color: #ddd;
+}
+
 
 
 
@@ -891,11 +901,11 @@ hr {
 }
 	
 img.hover-shadow {
-  transition: 0.5s
+  transition: 0.5s;
 }
 
 .hover-shadow:hover {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 
