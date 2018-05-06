@@ -6,10 +6,27 @@
    Revisions:  Ericson Lab-Tutorial 10:00am 2/5/2018
 */ 
 
+//Requirements 1: Data Transfer
+//Stores the Data in local storage
+function subjectDataTransfer(product_id){
+	sessionStorage.setItem("selected_product_id", product_id);
+	
+	//Storage Test 
+	// var test = localStorage.getItem("selected_product_id");
+	// alert(typeof(test));
+}
 
-
-
-
+//Retrieves the Data in local storage
+function enquirySelectedProduct(){
+	
+	try{
+		var temp = sessionStorage.getItem("selected_product_id");
+		var selectedProductId = parseInt(temp.replace(/[^0-9]/g,''));
+		document.getElementById("product").selectedIndex = selectedProductId;
+	}catch(err){
+		
+	}
+}
 
 //Enquiry Validation
 var gErrorMsg = "";
@@ -150,11 +167,20 @@ function display(){
 	}
 	return isALLOK;
 }
-function init(){
-	var clickme = document.getElementById("clickme");
-	clickme.onclick = display;
-}
-window.onload = init;
-window.onload = init;
 
+//To load multiple functions 
+function addLoadEvent(func) {
+  var oldonload = window.onload;
+  if (typeof window.onload != 'function') {
+    window.onload = func;
+  } else {
+    window.onload = function() {
+      if (oldonload) {
+        oldonload();
+      }
+      func();
+    }
+  }
+}
+addLoadEvent(enquirySelectedProduct());
 

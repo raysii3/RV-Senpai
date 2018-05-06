@@ -36,7 +36,6 @@
 					<a class="dropbtn" href="product.html" title="RV Senpai RVs">Rental</a>
 					<div class="product_dropdown_content">
 						<a href="classa.html" title="Class A Motorhome">Class A</a>
-						<!-- "#" is only test links, URLs needed -->
 						<a href="classb.html" title="Class B Motorhome">Class B</a>
 						<a href="classc.html" title="Class C Motorhome">Class C</a>
 						<a href="trailer.html" title="Trailer RV">Trailer</a>
@@ -150,7 +149,7 @@
 						<td>
 						<label for="product">RV Rental (Which RV you want to rent?): </label>
 						<select name="product" id="product">
-							<option value = "Select your RV" selected = "selected">Select your RV</option>
+							<option value = "Select your RV" selected>Select your RV</option>
 							<option value = "Class A Basic">Class A Basic</option>
 							<option value = "Class A Standard">Class A Standard</option>
 							<option value = "Class A Popular">Class A Popular</option>
@@ -191,7 +190,7 @@
 				<table>
 					<tr>
 						<td>
-						<p class="button"><input type="submit" value="Submit" id="clickme"/></p>
+						<p class="button" onclick="display()"><input type="submit" value="Submit" id="clickme"/></p>
 						</td>
 						<td>
 						<p class="button"><input type="reset" value="Reset"/></p>
@@ -238,4 +237,5 @@
 
 
 </body>
+	<script src="script/script.js"></script>
 </html>
