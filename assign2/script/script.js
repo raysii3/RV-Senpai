@@ -18,7 +18,6 @@ function subjectDataTransfer(product_id){
 
 //Retrieves the Data in local storage
 function enquirySelectedProduct(){
-	
 	try{
 		var temp = sessionStorage.getItem("selected_product_id");
 		var selectedProductId = parseInt(temp.replace(/[^0-9]/g,''));
@@ -74,7 +73,11 @@ function populateProductDropdown(){
 		var el = document.createElement("option");
 		el.text = opt;
 		el.value = opt;
-		dropdown_id.appendChild(el);
+		try{
+			dropdown_id.appendChild(el);
+		}catch(err){
+			
+		}
 	}
 		
 }
