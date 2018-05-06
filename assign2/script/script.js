@@ -28,6 +28,58 @@ function enquirySelectedProduct(){
 	}
 }
 
+//Requirements 4: Populate navigation bar Product drop-down list using Javascript
+function populateNavDropdown(){
+	var product_content = document.getElementById("product_dropdown_id");
+	var textNodes = [];
+	var links = [];
+	
+	for(var i = 0; i < 4; ++i){
+		links[i] = document.createElement("a");
+		
+		switch(i){
+			case 0:	
+				links[0].href = "classa.html";
+				textNodes[0] = document.createTextNode("Class A");
+				break;
+			case 1:	
+				links[1].href = "classb.html";
+				textNodes[1] = document.createTextNode("Class B");
+				break;
+			case 2:	
+				links[2].href = "classc.html";
+				textNodes[2] = document.createTextNode("Class C");
+				break;
+			case 3:	
+				links[3].href = "trailer.html";
+				textNodes[3] = document.createTextNode("Trailer");
+				break;
+		}
+		links[i].appendChild(textNodes[i]);
+		product_content.appendChild(links[i]);
+	}
+}
+
+//Populate enquiry drop-down list using Javascript
+function populateProductDropdown(){
+	var dropdown_id = document.getElementById("product");
+	var dropdownList =["Class A Basic","Class A Standard","Class A Popular","Class A Premium",
+	"Class A Luxury","Class B Basic","Class B Standard","Class B Popular",
+	"Class B Premium","Class B Luxury","Class C Basic","Class C Standard",
+	"Class C Popular","Class C Premium","Class C Luxury","Trailer Basic",
+	"Trailer Standard","Trailer Popular","Trailer Premium","Trailer Luxury"]
+	
+	for(var i = 0; i < dropdownList.length; ++i){
+		var opt = dropdownList[i];
+		var el = document.createElement("option");
+		el.text = opt;
+		el.value = opt;
+		dropdown_id.appendChild(el);
+	}
+		
+}
+
+
 //Enquiry Validation
 var gErrorMsg = "";
 function validate_fname() {
@@ -182,5 +234,8 @@ function addLoadEvent(func) {
     }
   }
 }
+addLoadEvent(populateProductDropdown());
+addLoadEvent(populateNavDropdown());
 addLoadEvent(enquirySelectedProduct());
+
 
