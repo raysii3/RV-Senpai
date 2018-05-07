@@ -6,28 +6,61 @@
    Revisions:  Ericson Lab-Tutorial 10:00am 2/5/2018
 */ 
 
-//Requirements 1: Data Transfer
 //Stores the Data in local storage
 function subjectDataTransfer(product_id){
 	sessionStorage.setItem("selected_product_id", product_id);
-	
 	//Storage Test 
 	// var test = localStorage.getItem("selected_product_id");
 	// alert(typeof(test));
+}
+
+function checkProductActive(){
+	if(location.pathname == "/assign2/classa.html")
+		document.getElementById("CA").classList.add("active");
+	else if(location.pathname == "/assign2/classb.html")
+		document.getElementById("CB").classList.add("active");
+	else if(location.pathname == "/assign2/classc.html")
+		document.getElementById("CC").classList.add("active");
+	else if(location.pathname == "/assign2/trailer.html")
+		document.getElementById("T").classList.add("active");
+}
+
+//Check if "Subject" field is filled, show "Product" field if yes, none if no
+function check() {
+    var dropdown = document.getElementById("Subject");
+    var current_value = dropdown.options[dropdown.selectedIndex].value;
+
+    if (current_value !== "Select your RV") {
+		document.getElementById("productlabel").style.display = "inline";
+        document.getElementById("product").style.display = "inline";
+    }
+    else {
+		document.getElementById("productlabel").style.display = "none";
+        document.getElementById("product").style.display = "none";
+    }
 }
 
 //Retrieves the Data in local storage
 function enquirySelectedProduct(){
 	try{
 		var temp = sessionStorage.getItem("selected_product_id");
-		var selectedProductId = parseInt(temp.replace(/[^0-9]/g,''));
+		var selectedSubjectId = parseInt(temp.substr(1,1));
+		var selectedProductId = parseInt(temp.substr(2,1));
+		document.getElementById("Subject").selectedIndex = selectedSubjectId;
 		document.getElementById("product").selectedIndex = selectedProductId;
 	}catch(err){
 		
 	}
 }
 
-//Requirements 4: Populate navigation bar Product drop-down list using Javascript
+//Function for all dropdown repopulation
+function populateDropdown(){
+	populateNavDropdown();
+	populateSubjectDropdown();
+	populateProductDropdown();
+}
+
+//Populate navigation bar Product drop-down list using Javascript
 function populateNavDropdown(){
 	var product_content = document.getElementById("product_dropdown_id");
 	var textNodes = [];
@@ -40,18 +73,22 @@ function populateNavDropdown(){
 			case 0:	
 				links[0].href = "classa.html";
 				textNodes[0] = document.createTextNode("Class A");
+				links[0].setAttribute("id", "CA");
 				break;
 			case 1:	
 				links[1].href = "classb.html";
 				textNodes[1] = document.createTextNode("Class B");
+				links[1].setAttribute("id", "CB");
 				break;
 			case 2:	
 				links[2].href = "classc.html";
 				textNodes[2] = document.createTextNode("Class C");
+				links[2].setAttribute("id", "CC");
 				break;
 			case 3:	
 				links[3].href = "trailer.html";
 				textNodes[3] = document.createTextNode("Trailer");
+				links[3].setAttribute("id", "CT");
 				break;
 		}
 		links[i].appendChild(textNodes[i]);
@@ -59,14 +96,10 @@ function populateNavDropdown(){
 	}
 }
 
-//Populate enquiry drop-down list using Javascript
-function populateProductDropdown(){
-	var dropdown_id = document.getElementById("product");
-	var dropdownList =["Class A Basic","Class A Standard","Class A Popular","Class A Premium",
-	"Class A Luxury","Class B Basic","Class B Standard","Class B Popular",
-	"Class B Premium","Class B Luxury","Class C Basic","Class C Standard",
-	"Class C Popular","Class C Premium","Class C Luxury","Trailer Basic",
-	"Trailer Standard","Trailer Popular","Trailer Premium","Trailer Luxury"]
+//Populate enquiry "Subject" field drop-down list using Javascript
+function populateSubjectDropdown(){
+	var dropdown_id = document.getElementById("Subject");
+	var dropdownList =["Class A","Class B","Class C","Trailer"]
 	
 	for(var i = 0; i < dropdownList.length; ++i){
 		var opt = dropdownList[i];
@@ -79,7 +112,23 @@ function populateProductDropdown(){
 			
 		}
 	}
-		
+}
+//Populate enquiry "Product" field drop-down list using Javascript
+function populateProductDropdown(){
+	var dropdown_id = document.getElementById("product");
+	var dropdownList =["Basic","Standard","Popular","Premium","Luxury"]
+	
+	for(var i = 0; i < dropdownList.length; ++i){
+		var opt = dropdownList[i];
+		var el = document.createElement("option");
+		el.text = opt;
+		el.value = opt;
+		try{
+			dropdown_id.appendChild(el);
+		}catch(err){
+			
+		}
+	}
 }
 
 
@@ -237,8 +286,8 @@ function addLoadEvent(func) {
     }
   }
 }
-addLoadEvent(populateProductDropdown());
-addLoadEvent(populateNavDropdown());
+addLoadEvent(populateDropdown());
 addLoadEvent(enquirySelectedProduct());
+addLoadEvent(checkProductActive());
 
 

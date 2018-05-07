@@ -142,23 +142,31 @@
 				<legend>Rental Detail</legend>
 					<table>
 						<tr>
-						<td>
-						<label for="product">Subject / RV Rental (Which RV you want to rent?): </label>
-						<select name="product" id="product">
-							<option value = "Select your RV" selected>Select your RV</option>
-						</select>
-						</td>
+							<td>
+							<label for="Subject" >Subject / RV Rental (Which RV do you want to rent?): </label>
+							<select name="Subject" id="Subject" onchange="check()">
+								<option value = "Select your RV" selected>Select your RV</option>
+							</select>
+							</td>
 						</tr>
 						<tr>
-						<td>
-							<label for="rental_dur">Rental Duration/days (Minimum: 1 days | Maximum: half year):</label>
-							<input type="number" name="duration" id="rental_dur" min="1" max="182" step="1" value="0"/>
-						</td>
+							<td>
+							<label for="product" id="productlabel">Product Class </label>
+							<select name="product" id="product">
+								<option value = "Select your RV Class plan" selected>Select your RV Class plan</option>
+							</select>
+							</td>
 						</tr>
 						<tr>
-						<td>
-							<p class="rental_detail_textarea">Any Comment?</p><p class="rental_detail_textarea"><textarea class="comment_faq" name="comments" rows="10" cols="50" placeholder="Tell Us what you need"></textarea></p>
-						</td>
+							<td>
+								<label for="rental_dur">Rental Duration/days (Minimum: 1 days | Maximum: half year):</label>
+								<input type="number" name="duration" id="rental_dur" min="1" max="182" step="1" value="0"/>
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<p class="rental_detail_textarea">Any Comment?</p><p class="rental_detail_textarea"><textarea class="comment_faq" name="comments" rows="10" cols="50" placeholder="Tell Us what you need"></textarea></p>
+							</td>
 						</tr>
 					</table>
 				</fieldset>
