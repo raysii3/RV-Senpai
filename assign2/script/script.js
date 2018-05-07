@@ -22,7 +22,7 @@ function checkProductActive(){
 	else if(location.pathname == "/assign2/classc.html")
 		document.getElementById("CC").classList.add("active");
 	else if(location.pathname == "/assign2/trailer.html")
-		document.getElementById("T").classList.add("active");
+		document.getElementById("CT").classList.add("active");
 }
 
 //Check if "Subject" field is filled, show "Product" field if yes, none if no
