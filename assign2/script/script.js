@@ -119,7 +119,7 @@ function validate_email () {
 function validate_pnum () {  
 	var pnum = document.getElementById("p_number");
 	var validpnum = false; 
-	var pattern = /^\(\d\d\) \d\d\d\d-\d\d\d\d$/;
+	var pattern = /^\d\d\d\-\d\d\d\d\d\d\d\d$/;
 	if (pattern.test(p_number.value)){
 		validpnum = true;
 	}else{  
@@ -131,7 +131,7 @@ function validate_pnum () {
 function validate_hpnum () {  
 	var hpnum = document.getElementById("hp_number");
 	var validhpnum = false; 
-	var pattern = /^\(\d\d\d\) \d\d\d\d-\d\d\d\d$/;
+	var pattern = /^\d\d\d\-\d\d\d\d\d\d\d\d$/;
 	if (pattern.test(hp_number.value)){
 		validhpnum = true;
 	}else{  
