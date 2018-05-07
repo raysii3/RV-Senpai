@@ -10,7 +10,7 @@
 //1st Enhancement
 //Scroll Indicator
 // When the user scrolls the page, execute myFunction 
-window.onscroll = function() {myFunction()} && function() {scrollFunction()};;
+window.onscroll = function() {myFunction(); scrollFunction();};
 
 function myFunction() {
   var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
