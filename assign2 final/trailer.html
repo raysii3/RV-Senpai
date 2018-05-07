@@ -4,23 +4,25 @@
 <head>
     <meta charset="utf-8" />
     <meta name="description" content="RV Senpai Project/Assignment" />
-    <meta name="keywords" content="RV, Senpai, Class B RV" />
+    <meta name="keywords" content="RV, Senpai, Trailer RV" />
     <meta name="author" content="Ericson Tan Peng Hong, Loo Wei Jit, Raymond Sii Li Sheng, Ian Chung Ye Earn" />
 	
-    <title>Class B RV | RV Senpai</title>
+    <title>Trailer RV | RV Senpai</title>
 	
-	<link rel="stylesheet" type="text/css" href="styles/style.css"/>
+	<link rel="stylesheet" type="text/css" href="styles/style.css" />
 	<!-- Link for social media -->
 	<!-- https://www.w3schools.com/howto/howto_css_social_media_buttons.asp -->
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
 	
-	<script src="script/enhancements.js"></script>
 	
 </head>
 
 <body>
 
 <header>
+
+	<button onclick="topFunction()" class="mybtn" title="Go to top">Top</button>
+
 	<div class="scroll_bar">
 		<div class="progress-container">
 			<div class="progress-bar" id="myBar"></div>
@@ -33,92 +35,90 @@
 			<li><a href="aboutus.html" title="About RV Senpai">About Us</a></li>
 			<li><div class="product_dropdown active">
 					<a class="dropbtn" href="product.html" title="RV Senpai RVs">Rental</a>
-					<div class="product_dropdown_content">
-						<a href="classa.html" title="Class A Motorhome">Class A</a>
-						<a href="classb.html" class="active" title="Class B Motorhome">Class B</a>
-						<a href="classc.html" title="Class C Motorhome">Class C</a>
-						<a href="trailer.html" title="Trailer RV">Trailer</a>
-					</div>
+					<div id="product_dropdown_id" class="product_dropdown_content"></div>
 				</div>
 			</li>
-			<li><a class="booking" href="enquiry.html" title="Rent Your RV Here">Booking</a></li>
+			<li><a class="booking" href="enquiry.html" title="Rent your RV Here">Booking</a></li>
 			<li><a href="event.html" title="Event RV Senpai">Event</a></li>
 			<li><a href="contactus.html" title="Contact RV Senpai">Contact Us</a></li>
 		</ul>
 	</nav>
 </header>
 
-	<div class="bigimg_product_b">
+	<div class="bigimg_product_t">
 		<div class="caption">
-			<h1><span class="border">Class B</span></h1>
+			<h1><span class="border">Trailer</span></h1>
 		</div>
 	</div>
 	
 	<article>
 	<div class="article_area">
+		<!-- <h3 class="h3_black_background">Comparison Chart</h3> -->
+		<!-- <h4>We Are Different for a Reason</h4> -->
 		<div class="container">
 			<div class="panel pricing_table">
 				<div class="pricing_plan">
 					<h2 class="pricing_header">Basic</h2>
-					<img src="images/classb/basic.jpg" alt="Basic Class B" class="pricing_img"/>
+					<img src="images/trailer/basic.jpg" alt="Basic Trailer" class="pricing_img"/>
 					<ul class="pricing_features">
-						<li><span class="pricing_price">RM400</span><span class="pricing_price_tag">per day<br /></span></li>
-						<li>Basic Kitchen with Gas Stove</li>	
-						<li>Microwave</li>
-						<li>Bathroom</li>
-						<li>Bedroom</li>
-						<li><a href="enquiry.html" class="pricing_button" title="Rent This RV">Rent</a></li>
+						<li><span class="pricing_price">RM300</span><span class="pricing_price_tag">per day<br /></span></li>
+						<li>Bedroom</li>	
+						<li>Window</li>
+						<li>Fan</li>
+						<li><a href="enquiry.html" class="pricing_button" id="T41" onClick="subjectDataTransfer(this.id)" title="Rent This RV">Rent</a></li>
 					</ul>
 				</div>
 				
 				<div class="pricing_plan">
 					<h2 class="pricing_header">Standard</h2>
-					<img src="images/classb/standard.jpg" alt="Standard Class B" class="pricing_img"/>
+					<img src="images/trailer/standard.jpg" alt="Standard Trailer" class="pricing_img"/>
 					<ul class="pricing_features">
-						<li><span class="pricing_price">RM600</span><span class="pricing_price_tag">per day<br/></span></li>
-						<li>Air-Conditioning</li>
-						<li>Retractable Roof</li>
-						<li>Dining Area</li>
-						<li><a href="enquiry.html" class="pricing_button" title="Rent This RV">Rent</a></li>
+						<li><span class="pricing_price">RM450</span><span class="pricing_price_tag">per day<br /></span></li>
+						<li>Television</li>
+						<li>Small Fridge</li>
+						<li>Small Kitchen</li>
+						<li><a href="enquiry.html" class="pricing_button" id="T42" onClick="subjectDataTransfer(this.id)" title="Rent This RV">Rent</a></li>
 					</ul>
 				</div>
 				
 				<div class="pricing_plan">
 					<h2 class="pricing_header">Popular</h2>
-					<img src="images/classb/popular.jpg" alt="Popular Class B" class="pricing_img"/>
+					<img src="images/trailer/popular.jpg" alt="Popular Trailer" class="pricing_img"/>
 					<ul class="pricing_features">
-						<li><span class="pricing_price">RM800</span><span class="pricing_price_tag">per day<br /></span></li>
-						<li>LCD TV</li>
-						<li>Electric Furnace</li>
-						<li>Foyer</li>
-						<li>Small Fridge</li>
-						<li><a href="enquiry.html" class="pricing_button" title="Rent This RV">Rent</a></li>
+						<li><span class="pricing_price">RM600</span><span class="pricing_price_tag">per day<br /></span></li>
+						<li>Double Decker Bed</li>
+						<li>Retractable Bed</li>
+						<li>Cushion</li>
+						<li>Carpet Floor</li>
+						<li><a href="enquiry.html" class="pricing_button" id="T43" onClick="subjectDataTransfer(this.id)" title="Rent This RV">Rent</a></li>
 					</ul>
 				</div>
 				
 				<div class="pricing_plan">
 					<h2 class="pricing_header">Premium</h2>
-					<img src="images/classb/premium.jpg" alt="Premium Class B" class="pricing_img"/>
+					<img src="images/trailer/premium.jpg" alt="Premium Trailer" class="pricing_img"/>
 					<ul class="pricing_features">
-						<li><span class="pricing_price">RM1000</span><span class="pricing_price_tag">per day<br/></span></li>
+						<li><span class="pricing_price">RM750</span><span class="pricing_price_tag">per day<br /></span></li>
+						<li>Dining Area</li>
+						<li>Fully Equipped Kitchen</li>
+						<li>LCD TV</li>
+						<li>Oven</li>
 						<li>Large Fridge</li>
-						<li>Level 2 Storage Area</li>
-						<li>Heater</li>
-						<li>Central Heating System</li>
-						<li><a href="enquiry.html" class="pricing_button" title="Rent This RV">Rent</a></li>
+						<li><a href="enquiry.html" class="pricing_button" id="T44" onClick="subjectDataTransfer(this.id)" title="Rent This RV">Rent</a></li>
 					</ul>
 				</div>
 				
 				<div class="pricing_plan">
 					<h2 class="pricing_header">Luxury</h2>
-					<img src="images/classb/luxury.jpg" alt="Luxury Class B" class="pricing_img"/>
+					<img src="images/trailer/luxury.jpg" alt="Luxury Trailer" class="pricing_img"/>
 					<ul class="pricing_features">
-						<li><span class="pricing_price">RM1200</span><span class="pricing_price_tag">per day<br/></span></li>
-						<li>LED TV</li>
-						<li>Internet Access</li>
-						<li>Filter System</li>
+						<li><span class="pricing_price">RM900</span><span class="pricing_price_tag">per day<br /></span></li>
 						<li>Leather Cushion</li>
-						<li><a href="enquiry.html" class="pricing_button" title="Rent This RV">Rent</a></li>
+						<li>Master Bedroom</li>
+						<li>Curved Oled TV</li>
+						<li>Freezer</li>
+						<li>Furnace</li>
+						<li><a href="enquiry.html" class="pricing_button" id="T45" onClick="subjectDataTransfer(this.id)" title="Rent This RV">Rent</a></li>
 					</ul>
 				</div>
 			  </div>
@@ -126,7 +126,7 @@
 		 </div>
 	</article>
 	
-	<div class="bigimg_product_b">
+	<div class="bigimg_product_t">
 		<div class="caption">
 			<h1><span class="border">With RV-Senpai</span></h1>
 		</div>
@@ -160,5 +160,6 @@
 		
 	</footer>
 </body>
-
+<script src="script/script.js"></script>
+<script src="script/enhancements.js"></script>
 </html>
