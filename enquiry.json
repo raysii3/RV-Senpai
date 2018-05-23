@@ -1,0 +1,22 @@
+[
+{"type":"header","version":"4.7.7","comment":"Export to JSON plugin for PHPMyAdmin"},
+{"type":"database","name":"enquirydb"},
+{"type":"table","name":"enquiry","database":"enquirydb","data":
+[
+{"FirstName":"fname","LastName":"lname","Email":"email@email.com","PhoneNumber":"012-34567890","HandphoneNumber":"012-34567890","Address":"street","State":"Terengganu","PostCode":"12345","RVRental":"Class B","RVClass":"Standard","RentTime":"11"},
+{"FirstName":"asd","LastName":"asd","Email":"asd@sd.com","PhoneNumber":"012-34567890","HandphoneNumber":"012-34567890","Address":"asd","State":"Sabah","PostCode":"12345","RVRental":"Trailer","RVClass":"Standard","RentTime":"11"},
+{"FirstName":"me","LastName":"lnamlast","Email":"me@yahoo.com","PhoneNumber":"012-34567890","HandphoneNumber":"012-34567890","Address":"lgg","State":"Sarawak","PostCode":"12345","RVRental":"Class B","RVClass":"Basic","RentTime":"12"},
+{"FirstName":"me","LastName":"lnamlast","Email":"me@yahoo.com","PhoneNumber":"012-34567890","HandphoneNumber":"012-34567890","Address":"lgg","State":"Sarawak","PostCode":"12345","RVRental":"Class B","RVClass":"Basic","RentTime":"12"},
+{"FirstName":"firstname","LastName":"lastname","Email":"email@email.com","PhoneNumber":"012-34567890","HandphoneNumber":"012-34567890","Address":"www","State":"Terengganu","PostCode":"33333","RVRental":"Class A","RVClass":"Popular","RentTime":"23"},
+{"FirstName":"aaaaaa","LastName":"aaaaaa","Email":"aaaaa@gmail.com","PhoneNumber":"012-34567890","HandphoneNumber":"012-34567890","Address":"asdasdasd","State":"Terengganu","PostCode":"32314","RVRental":"Select your RV","RVClass":"Standard","RentTime":"11"},
+{"FirstName":"zxc","LastName":"zxc","Email":"zxc@yahoo.com","PhoneNumber":"012-34567890","HandphoneNumber":"012-34567890","Address":"dffd","State":"Sarawak","PostCode":"33331","RVRental":"Class B","RVClass":"Standard","RentTime":"11"},
+{"FirstName":"asd","LastName":"lname","Email":"email@email.com","PhoneNumber":"012-34567890","HandphoneNumber":"012-34567890","Address":"street","State":"Sabah","PostCode":"32145","RVRental":"Class B","RVClass":"Popular","RentTime":"11"},
+{"FirstName":"asd","LastName":"asd","Email":"email@email.com","PhoneNumber":"012-34567890","HandphoneNumber":"012-34567890","Address":"lgg","State":"Negeri Sembilan","PostCode":"32145","RVRental":"Class B","RVClass":"Standard","RentTime":"22"},
+{"FirstName":"asd","LastName":"asd","Email":"email@email.com","PhoneNumber":"012-34567890","HandphoneNumber":"012-34567890","Address":"lgg","State":"Negeri Sembilan","PostCode":"32145","RVRental":"Select your RV","RVClass":"Select your RV Class plan","RentTime":"22"},
+{"FirstName":"me","LastName":"qwe","Email":"zxc@yahoo.com","PhoneNumber":"012-34567890","HandphoneNumber":"012-34567890","Address":"street","State":"Negeri Sembilan","PostCode":"32145","RVRental":"Class A","RVClass":"Luxury","RentTime":"22"},
+{"FirstName":"asd","LastName":"asd","Email":"email@email.com","PhoneNumber":"012-34567890","HandphoneNumber":"012-34567890","Address":"street","State":"Kelantan","PostCode":"32145","RVRental":"Class C","RVClass":"Standard","RentTime":"44"},
+{"FirstName":"customer","LastName":"one","Email":"customer@gmail.com","PhoneNumber":"012-34567890","HandphoneNumber":"012-34567890","Address":"Jalan Song","State":"Sarawak","PostCode":"12345","RVRental":"Class A","RVClass":"Basic","RentTime":"34"},
+{"FirstName":"<p>loo<\/p>","LastName":"<p>loo<\/p>","Email":"loo@gmail.com","PhoneNumber":"012-34567890","HandphoneNumber":"012-34567890","Address":"<p>loo<\/p>","State":"Sarawak","PostCode":"46435","RVRental":"Class A","RVClass":"Premium","RentTime":"33"}
+]
+}
+]
